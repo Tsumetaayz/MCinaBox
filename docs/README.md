@@ -70,13 +70,13 @@ In theory, forge is supported, but we need to make some changes to start it.
 ## Known Issues
 
 ### Launcher
-1. Unable to request more memory from the system, the upper limit is determined by the system
+1. Unable to request more memory from the system, the upper limit is determined by the system (Can be fixed by changing memory used by apps through root.)
 
 ### Launch Minecraft
 1. Forge's loading animation will cause a crash
 2. It seems that there will be an X11 error when starting the Minecraft version below 1.6
 3. Unable to initialize Minecraft 1.13.x
-4. Minecraft 1.14.X ~ 1.15.X has rendering problems
+4. Minecraft 1.14.X ~ 1.15.X has rendering problems (Works fine on Snapdragon 855+ devices, can't push it too hard because of ARM limitations.)
 5. Too fast key input may cause lwjgl to crash
 
 ## Maintainers
